@@ -6,8 +6,8 @@
 //* Once the loop is run, the program will return the new blankArray.
 //**************************************************************************************
 function theBeatlesPlay(musicians, instruments){
-  var blankArray = []
-    for (let i = 0; i < musicians.length; i++)
+  var blankArray = [];
+    for (let i = 0; i < musicians.length; i++);
        blankArray [i] = (`${musicians[i]} plays ${instruments[i]}`)
   return blankArray
    }
