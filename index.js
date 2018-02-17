@@ -1,6 +1,6 @@
 //The function establishes the arrays, musicians and instruments, as the parameters.
 //When the counter variable (i) is between 0 and the length of the musicians array (in this case 4), the loop will assign the elements from the "musicians" and "instruments" arrays to the variable: "blankArray".
-//Once the loop is run, the program will return the new blankArray. 
+//Once the loop is run, the program will return the new blankArray.
 function theBeatlesPlay(musicians, instruments){
   var blankArray = []
     for (let i = 0; i < musicians.length; i++)
@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments){
   return blankArray
    }
 //The function establishes an array (any array) as the parameter.
-//When the counter variable (i) is between 0 and the array length, the loop will  assign the string: "!!!" to the end of each element in the array.
+//When the counter variable (i) is between 0 and the array length, the loop will assign the string: "!!!" to the end of each element in the array.
 //Once the loop is run, the program will return the new array.
 function johnLennonFacts(array){
      let i = 0;
