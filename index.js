@@ -1,4 +1,4 @@
-//The function establishes the arrays, musicians and instruments, as the parameters.
+//The function establishes the arrays, "musicians" and "instruments", as the parameters.
 //When the counter variable (i) is between 0 and the length of the "musicians" array, the loop will assign the elements from the "musicians" and "instruments" arrays to the variable: "blankArray".
 //Once the loop is run, the program will return the new blankArray.
 function theBeatlesPlay(musicians, instruments){
